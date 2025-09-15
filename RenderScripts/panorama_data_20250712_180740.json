@@ -1,0 +1,902 @@
+{
+    "floors": [
+        {
+            "floor_id": 0,
+            "floor_name": "Basement",
+            "floor_map": "",
+            "label": ""
+        }
+    ],
+    "rooms": [
+        {
+            "room_id": 0,
+            "room_name": "Bar",
+            "main_panorama_id": 11,
+            "position": {
+                "x": -39.127583238844146,
+                "y": 342.6870791157466
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 1,
+            "room_name": "Dinning Room",
+            "main_panorama_id": 1,
+            "position": {
+                "x": 986.0082580343108,
+                "y": -462.76857961484865
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 2,
+            "room_name": "Drawing Room",
+            "main_panorama_id": 14,
+            "position": {
+                "x": 633.592577816663,
+                "y": 177.7927377992121
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 3,
+            "room_name": "Entrance",
+            "main_panorama_id": 0,
+            "position": {
+                "x": -14.900252978918331,
+                "y": -328.53775915748923
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 4,
+            "room_name": "Party Hall",
+            "main_panorama_id": 17,
+            "position": {
+                "x": -630.8432339966088,
+                "y": 98.39585078127502
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 5,
+            "room_name": "Spa",
+            "main_panorama_id": 4,
+            "position": {
+                "x": -568.4071794183133,
+                "y": -681.7178748362717
+            },
+            "floor_id": 0
+        },
+        {
+            "room_id": 6,
+            "room_name": "Utilities",
+            "main_panorama_id": 10,
+            "position": {
+                "x": 706.0538901669025,
+                "y": -759.8298824350226
+            },
+            "floor_id": 0
+        }
+    ],
+    "panoramas": [
+        {
+            "panorma_id": 0,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Entrance_None_d_f/px.jpeg",
+                        "py": "/bhatia/Entrance_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Entrance_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Entrance_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Entrance_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Entrance_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Entrance_None_d_u/px.jpeg",
+                        "py": "/bhatia/Entrance_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Entrance_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Entrance_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Entrance_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Entrance_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Entrance_None_d_f/px.jpeg",
+                        "py": "/bhatia/Entrance_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Entrance_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Entrance_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Entrance_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Entrance_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Entrance_None_d_u/px.jpeg",
+                        "py": "/bhatia/Entrance_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Entrance_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Entrance_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Entrance_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Entrance_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 3
+        },
+        {
+            "panorma_id": 1,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Dinning Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Dinning Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Dinning Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Dinning Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 1
+        },
+        {
+            "panorma_id": 2,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 2
+        },
+        {
+            "panorma_id": 3,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 5
+        },
+        {
+            "panorma_id": 4,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 5
+        },
+        {
+            "panorma_id": 5,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Spa_None_d_f/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Spa_None_d_u/px.jpeg",
+                        "py": "/bhatia/Spa_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Spa_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Spa_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Spa_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Spa_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 5
+        },
+        {
+            "panorma_id": 6,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 6
+        },
+        {
+            "panorma_id": 7,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 6
+        },
+        {
+            "panorma_id": 8,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 6
+        },
+        {
+            "panorma_id": 9,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 6
+        },
+        {
+            "panorma_id": 10,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Utilities_None_d_f/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Utilities_None_d_u/px.jpeg",
+                        "py": "/bhatia/Utilities_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Utilities_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Utilities_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Utilities_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Utilities_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 6
+        },
+        {
+            "panorma_id": 11,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Bar_None_d_f/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Bar_None_d_u/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Bar_None_d_f/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Bar_None_d_u/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 0
+        },
+        {
+            "panorma_id": 12,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Bar_None_d_f/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Bar_None_d_u/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Bar_None_d_f/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Bar_None_d_u/px.jpeg",
+                        "py": "/bhatia/Bar_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Bar_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Bar_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Bar_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Bar_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 0
+        },
+        {
+            "panorma_id": 13,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 2
+        },
+        {
+            "panorma_id": 14,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Drawing Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Drawing Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Drawing Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Drawing Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Drawing Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Drawing Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Drawing Room_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 2
+        },
+        {
+            "panorma_id": 15,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 4
+        },
+        {
+            "panorma_id": 16,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 4
+        },
+        {
+            "panorma_id": 17,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Party Hall_None_d_f/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Party Hall_None_d_u/px.jpeg",
+                        "py": "/bhatia/Party Hall_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Party Hall_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Party Hall_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Party Hall_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Party Hall_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 4
+        },
+        {
+            "panorma_id": 18,
+            "default_rotation": 0.0,
+            "image_data": {
+                "day": {
+                    "furnished": {
+                        "px": "/bhatia/Dinning Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Dinning Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_u/nz.jpeg"
+                    }
+                },
+                "night": {
+                    "furnished": {
+                        "px": "/bhatia/Dinning Room_None_d_f/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_f/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_f/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_f/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_f/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_f/nz.jpeg"
+                    },
+                    "unfurnished": {
+                        "px": "/bhatia/Dinning Room_None_d_u/px.jpeg",
+                        "py": "/bhatia/Dinning Room_None_d_u/py.jpeg",
+                        "pz": "/bhatia/Dinning Room_None_d_u/pz.jpeg",
+                        "nx": "/bhatia/Dinning Room_None_d_u/nx.jpeg",
+                        "ny": "/bhatia/Dinning Room_None_d_u/ny.jpeg",
+                        "nz": "/bhatia/Dinning Room_None_d_u/nz.jpeg"
+                    }
+                }
+            },
+            "room_id": 1
+        }
+    ],
+    "markers": []
+}
