@@ -29,6 +29,7 @@ DATA_FILE_MAP = {
     "room_data.json": "room_data.json",
     "r2_panorama.json": "panorama_data.json",
     "marker_data.json": "marker_data.json",
+    "r2_panorama_image_set_data.json": "panorama_image_sets.json",
 }
 class R2Uploader:
     BUCKET_NAME = "spatium360"

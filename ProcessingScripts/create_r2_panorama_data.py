@@ -21,8 +21,14 @@ def update_panorama_json_file(project_dir: Path):
         return 
     
     panorama_json_path = data_dir / "pano_data.json"
+    pis_json_path = data_dir / "panorama_image_set_data.json"
+
     if not panorama_json_path.exists():
         print(f"panorama.json file does not exist in {data_dir}.")
+        return
+    
+    if not pis_json_path.exists():
+        print(f"panorama_image_set_data.json file does not exist in {data_dir}.")
         return
     
     cubemap_upload_json = data_dir / "cubemap_upload_map.json"
@@ -36,6 +42,9 @@ def update_panorama_json_file(project_dir: Path):
     with open(panorama_json_path, 'r') as f:
         panorama_data = json.load(f)
 
+    with open(pis_json_path, 'r') as f:
+        pis_data = json.load(f)
+
     def replace_paths(obj):
         if isinstance(obj, dict):
             return {k: replace_paths(v) for k, v in obj.items()}
@@ -48,12 +57,15 @@ def update_panorama_json_file(project_dir: Path):
             return obj
 
     updated_panorama_data = replace_paths(panorama_data)
+    updated_pis_data = replace_paths(pis_data)
 
     r2_panorama_json = data_dir / "r2_panorama.json"
+    r2_pis_json = data_dir / "r2_panorama_image_set_data.json"
     with open(r2_panorama_json, 'w') as f:
         json.dump(updated_panorama_data, f, indent=2)
 
-    
+    with open(r2_pis_json, 'w') as f:
+        json.dump(updated_pis_data, f, indent=2)
 
 
 if __name__ == "__main__":

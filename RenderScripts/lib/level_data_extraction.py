@@ -390,7 +390,7 @@ class UE5DataExtractor:
             floor_data, room_data, pano_point_data = self.collect_all_level_set_data(lvl_dict, len(floor_entries), len(room_entries), len(pano_entries))
             floor_entries, room_entries, pano_entries, marker_entries, pis_entries = self.process_panorama_data(
                 floor_data, room_data, pano_point_data, 
-                floor_entries, room_entries, pano_entries, marker_entries, processed_render_dir
+                floor_entries, room_entries, pano_entries, marker_entries, pis_entries, processed_render_dir
             )
 
 
