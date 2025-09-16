@@ -217,6 +217,7 @@ class UE5DataExtractor:
             dict: Nested image data structure
         """
         image_data = {}
+
         unreal.log(f"Generating image data structure for panorama '{level_names}'")
         for tod in TIME_OF_DAY_OPTIONS:
             image_data[tod] = {}
@@ -229,10 +230,12 @@ class UE5DataExtractor:
                         image_key = f"{im_d}{im_ax}"
                         image_path = f"{processed_render_dir}/{ln}_{pano_name}_{lc}/{image_key}{IMAGE_EXTENSION}"
                         image_data[tod][fur][image_key] = image_path
+
+
         
         return image_data
     
-    def process_panorama_data(self, floor_data, room_data, pano_point_data, floor_entries = [], room_entries = [], pano_entries = [], marker_entries = [], processed_render_dir=DEFAULT_RENDER_DIR):
+    def process_panorama_data(self, floor_data, room_data, pano_point_data, floor_entries = [], room_entries = [], pano_entries = [], marker_entries = [], pis_entries =[], processed_render_dir=DEFAULT_RENDER_DIR):
         """
         Export collected data to JSON files
         
@@ -268,6 +271,7 @@ class UE5DataExtractor:
                     "room_id": data["Room_ID"],
                     "room_name": data["Room_Name"],
                     "main_panorama_id": pano_point_data[data["Main_Panorama"]]["PanoPoint_ID"] if data["Main_Panorama"] else -1,
+                    "main_panorama_point_id": pano_point_data[data["Main_Panorama"]]["PanoPoint_ID"] if data["Main_Panorama"] else -1,
                     "position": {
                         "x": data["Location"].x,
                         "y": data["Location"].y,
@@ -279,11 +283,13 @@ class UE5DataExtractor:
             # Process panorama point data
 
             marker_count = len(marker_entries)
-            
+
+
             for pano, data in pano_point_data.items():
                 unreal.log(f"Processing panorama point: {data}")
                 pano_entry = {
                     "panorama_id": data["PanoPoint_ID"],
+                    "panorama_point_id": data["PanoPoint_ID"],
                     "default_rotation": data["defaultRotation"],
                     "image_data": self.generate_image_data_structure(
                         data["PanoName"],
@@ -291,7 +297,22 @@ class UE5DataExtractor:
                         processed_render_dir
                     ),
                     "room_id": room_data[data["Room"]]["Room_ID"] if data["Room"] else -1,
+                    "panorama_image_set_dicts": []
                 }
+                for tod in TIME_OF_DAY_OPTIONS:
+                    for fur in FURNISHING_OPTIONS:
+                        label = ("DAY" if tod=="day" else "NGT") + "_" + ("FUR" if fur=="furnished" else "UNF")
+
+                        pis = {
+                            "panorama_image_set_id": len(pis_entries),
+                            "images": pano_entry["image_data"][tod][fur],                                
+                        }
+                        pano_entry["panorama_image_set_dicts"].append({
+                            "panorama_image_set_id": pis["panorama_image_set_id"],
+                            "label": label
+                        })
+                        pis_entries.append(pis)
+
                 pano_entries.append(pano_entry)
                 
                 # Process connections for markers
@@ -303,8 +324,10 @@ class UE5DataExtractor:
                         marker_entry = {
                             "marker_id": marker_count,
                             "start_panorama_id": data["PanoPoint_ID"],
+                            "start_panorama_point_id": data["PanoPoint_ID"],
                             "position": self.get_three_coords(pano, data["Height"], connection),
                             "target_panorama_id": pano_point_data[connection]["PanoPoint_ID"],
+                            "target_panorama_point_id": pano_point_data[connection]["PanoPoint_ID"],
                         }
                         marker_entries.append(marker_entry)
                         marker_count += 1
@@ -313,14 +336,15 @@ class UE5DataExtractor:
         except Exception as e:
             unreal.log_error(f"Failed to export panorama data: {e}")
         
-        return floor_entries, room_entries, pano_entries, marker_entries
+        return floor_entries, room_entries, pano_entries, marker_entries, pis_entries
 
-    def write_json_files(self, folder_path, floor_json, room_json, pano_json, marker_json):
+    def write_json_files(self, folder_path, floor_json, room_json, pano_json, marker_json, pis_json):
         json_files = [
             ("floor_data.json", floor_json),
             ("room_data.json", room_json), 
             ("pano_data.json", pano_json),
-            ("marker_data.json", marker_json)
+            ("marker_data.json", marker_json),
+            ("panorama_image_set_data.json", pis_json)
         ]
         
 
@@ -351,7 +375,7 @@ class UE5DataExtractor:
         """
 
         unreal.log("Starting level data collection...")
-        floor_entries, room_entries, pano_entries, marker_entries = [], [], [], []
+        floor_entries, room_entries, pano_entries, marker_entries, pis_entries = [], [], [], [], []
         for lsd in level_set_dict.values():
             lvl_dict = {v[1]:v[2] for v in lsd}
             lvl_df = lvl_dict["DF"]
@@ -364,7 +388,7 @@ class UE5DataExtractor:
             # Collect all level data
             
             floor_data, room_data, pano_point_data = self.collect_all_level_set_data(lvl_dict, len(floor_entries), len(room_entries), len(pano_entries))
-            floor_entries, room_entries, pano_entries, marker_entries = self.process_panorama_data(
+            floor_entries, room_entries, pano_entries, marker_entries, pis_entries = self.process_panorama_data(
                 floor_data, room_data, pano_point_data, 
                 floor_entries, room_entries, pano_entries, marker_entries, processed_render_dir
             )
@@ -378,7 +402,8 @@ class UE5DataExtractor:
             floor_entries, 
             room_entries, 
             pano_entries, 
-            marker_entries
+            marker_entries, 
+            pis_entries
         )
         return 
 
